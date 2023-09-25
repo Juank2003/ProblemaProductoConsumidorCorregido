@@ -14,5 +14,5 @@ public class Consumidor implements Runnable{
                 System.out.println("Consumidor recuperó el numero:"+num);
             } /* Fin del if*/
         } /*Fin del bucle infinito*/
-    } /* Fin del run()*/
+    }
 } /*Fin de la clase Consumidor*/

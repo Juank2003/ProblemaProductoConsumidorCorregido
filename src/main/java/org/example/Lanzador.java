@@ -15,7 +15,6 @@ public class Lanzador {
 
         Cola colaCompartida=new Cola(MAX_ELEMENTOS);
 
-        /*Construimos los productores*/
         for (int i=0; i<MAX_PRODUCTORES; i++){
             Productor productor=new Productor(colaCompartida);
             hilosProductor[i]=new Thread(productor);

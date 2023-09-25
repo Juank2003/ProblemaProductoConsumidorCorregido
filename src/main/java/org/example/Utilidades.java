@@ -10,7 +10,6 @@ public class Utilidades {
         return random.nextInt(max);
     }
 
-    // Pausa el hilo actual durante un tiempo aleatorio en milisegundos
     public static void esperarTiempoAzar(int maxTiempo) {
         try {
             Thread.sleep(random.nextInt(maxTiempo));

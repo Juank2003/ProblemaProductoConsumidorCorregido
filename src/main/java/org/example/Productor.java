@@ -14,5 +14,5 @@ public class Productor implements Runnable{
 
             System.out.println("Productor encoló el numero:"+num);
         } /*Fin del while externo*/
-    } /*Fin de run()*/
+    }
 } /*Fin de la clase*/

@@ -9,9 +9,7 @@ public class Cola {
         cola=new LinkedList<Integer>();
         this.MAX_ELEMENTOS=max;
     }
-    /* En realidad, si estamos seguro de que nadie
-    llamará a este método podriamos ponerla como no
-    synchronized*/
+
     public synchronized boolean estaVacia(){
         int numElementos=cola.size();
         if (numElementos==0){
